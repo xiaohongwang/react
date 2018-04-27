@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom';
 import App ,{add}from './App';
 import registerServiceWorker from './registerServiceWorker';
 import MyComPonent1 from './modal/MyComponent1';
-
+import MyComPonent3 from './modal/Mycomponent3';
 ReactDOM.render(<App />, document.getElementById('root'));
-
+// ReactDOM.render(<MyComPonent3 />, document.getElementById('root'));
 registerServiceWorker();
 
 
